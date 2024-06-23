@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
                 RenderableSource.builder()
                     .setSource(
                         this,
-                        Uri.parse("file:///android_asset/Premier_Ball.glb"), // Path to the model file
+                        Uri.parse("file:///android_asset/Model.glb"), // Path to the model file
                         RenderableSource.SourceType.GLB // Type of model file
                     )
                     .setRecenterMode(RenderableSource.RecenterMode.ROOT) // Center the model
